@@ -1,0 +1,64 @@
+"*":
+  "auto-soft-wrap":
+    softWrapFileTypes: [
+      ".tex"
+      ".txt"
+      ".php"
+    ]
+  core:
+    audioBeep: false
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "autocomplete-html"
+      "php-integrator-tooltips"
+      "whitespace"
+      "go-plus"
+      "pp-markdown"
+    ]
+    excludeVcsIgnoredPaths: false
+    projectHome: "/Users/rob/Projects"
+    telemetryConsent: "no"
+  editor:
+    lineHeight: 1.6
+    showIndentGuide: true
+    softWrap: true
+  "exception-reporting":
+    userId: "2280ddd8-6c4d-d41e-76af-138d153dd397"
+  "go-plus":
+    format:
+      tool: "gofmt"
+  "linter-php": {}
+  "linter-ui-default":
+    panelHeight: 69
+  "merge-conflicts":
+    gitPath: "/usr/bin/git"
+  minimap: {}
+  "php-cs-fixer":
+    allowRisky: true
+    executablePath: "/usr/local/bin/php-cs-fixer"
+    executeOnSave: true
+    showInfoNotifications: true
+  "save-session":
+    dataSaveFolder: "/Users/rob/.atom/packages/save-session/projects"
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    scrollSyncType: "Vertical + Horizontal"
+    syncHorizontalScroll: true
+  "terminal-plus":
+    style:
+      theme: "inverse"
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+  whitespace: {}
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
+    softWrap: true
+".html.php.text":
+  editor:
+    tabLength: 4
