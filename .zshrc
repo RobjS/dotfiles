@@ -62,6 +62,7 @@ export PATH=$PATH:$GOPATH/bin
 # export MANPATH="/usr/local/man:$MANPATH"
 # export PATH=/usr/local/php5/bin:$PATH
 source $ZSH/oh-my-zsh.sh
+source $(brew --prefix php-version)/php-version.sh && php-version 7.2.31
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -98,10 +99,10 @@ alias "laravel"="~/.composer/vendor/bin/laravel"
 alias "pa"="php artisan"
 alias "drone"="/usr/local/bin/drone"
 alias "phpmd"="sudo ~/phpmd.phar"
+alias "dud"="docker-compose up -d"
 
 autoload bashcompinit
 bashcompinit
-source ~/.oh-my-zsh/wp-completion.bash
 #export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 eval "$(rbenv init -)"
