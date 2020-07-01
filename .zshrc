@@ -56,11 +56,8 @@ plugins=(git)
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export PATH="$PATH:/usr/local/opt/go/libexec/bin"
 export PATH="$PATH:~/.composer/vendor/bin"
-#export PATH="$PATH:/usr/local/Cellar/php70/7.0.7/bin"
 export GOPATH="$HOME/gowork"
 export PATH=$PATH:$GOPATH/bin
-# export MANPATH="/usr/local/man:$MANPATH"
-# export PATH=/usr/local/php5/bin:$PATH
 source $ZSH/oh-my-zsh.sh
 source $(brew --prefix php-version)/php-version.sh && php-version 7.2.31
 
@@ -89,21 +86,13 @@ source $(brew --prefix php-version)/php-version.sh && php-version 7.2.31
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias "whippet"="~/projects/whippet/bin/whippet"
-alias "whippet-old"="~/projects/whippet-old/bin/whippet"
-alias "whippet-dev"="~/projects/whippet-dev/bin/whippet"
-alias "whippet-server"="~/projects/whippet-server/whippet-server"
-alias "swhippet-server"="sudo ~/projects/whippet-server/whippet-server"
-alias "whippet-multi"="sudo ~/projects/whippet-server/whippet-server --multisite -p 80"
 alias "go"="/usr/local/opt/go/libexec/bin/go"
 alias "laravel"="~/.composer/vendor/bin/laravel"
 alias "pa"="php artisan"
-alias "drone"="/usr/local/bin/drone"
-alias "phpmd"="sudo ~/phpmd.phar"
 alias "dud"="docker-compose up -d"
 
 autoload bashcompinit
 bashcompinit
-#export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 eval "$(rbenv init -)"
 
