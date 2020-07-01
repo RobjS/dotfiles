@@ -7,6 +7,8 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "valelint/vale"
+tap "wilmoore/formulae"
+brew "openssl@1.1"
 brew "icu4c"
 brew "autoconf"
 brew "bash-completion"
@@ -26,17 +28,17 @@ brew "librsvg"
 brew "md5sha1sum"
 brew "mysql"
 brew "node"
-brew "openssl@1.1"
 brew "optipng"
-brew "php", restart_service: true, link: false
+brew "php", restart_service: true
 brew "php-cs-fixer"
-brew "php@7.1", link: true
+brew "php@7.1"
 brew "php@7.2", restart_service: true
+brew "php@7.3"
 brew "postgresql", restart_service: true
 brew "rbenv"
 brew "ruby"
 brew "sloccount"
-brew "ssh-copy-id"
+brew "ssh-copy-id", link: true
 brew "subversion"
 brew "the_silver_searcher"
 brew "tig", args: ["HEAD"]
@@ -47,6 +49,7 @@ brew "yarn"
 brew "drone/drone/drone"
 brew "heroku/brew/heroku"
 brew "valelint/vale/vale"
+brew "wilmoore/formulae/php-version"
 cask "aerial"
 cask "font-fira-code"
 cask "michaelvillar-timer"
