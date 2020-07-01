@@ -24,5 +24,7 @@ Install [atom](https://atom.io/)
 
 Copy the `config.cson` into `~/.atom/`.
 
+[PHP-Version](https://github.com/wilmoore/php-version) is used for controlling PHP versions.
+
 
 
