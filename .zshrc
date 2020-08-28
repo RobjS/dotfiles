@@ -91,6 +91,7 @@ alias "go"="/usr/local/opt/go/libexec/bin/go"
 alias "laravel"="~/.composer/vendor/bin/laravel"
 alias "pa"="php artisan"
 alias "dud"="docker-compose up -d"
+alias "acfhash"="date | md5sum | head -c 13; echo"
 
 autoload bashcompinit
 bashcompinit
