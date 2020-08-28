@@ -16,6 +16,12 @@ Install [oh my zsh](https://github.com/robbyrussell/oh-my-zsh)
 cp .zshrc ~/.zshrc
 ```
 
+Or better, symlink it:
+
+```bash
+ln -s ~/dotfiles/.zshrc ~/.zshrc
+```
+
 Install [docker desktop](https://www.docker.com/products/docker-desktop)
 
 Install [whippet](https://github.com/dxw/whippet)
