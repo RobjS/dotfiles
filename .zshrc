@@ -60,7 +60,7 @@ export GOPATH="$HOME/gowork"
 export PATH="$PATH:/Users/rob/Projects/dalmatian-tools/bin"
 export PATH=$PATH:$GOPATH/bin
 source $ZSH/oh-my-zsh.sh
-source $(brew --prefix php-version)/php-version.sh && php-version 7.2.31
+source $(brew --prefix php-version)/php-version.sh && php-version 7.4
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
