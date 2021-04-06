@@ -7,7 +7,12 @@ brew install git
 git clone git@github.com:RobjS/dotfiles.git
 cd dotfiles/
 brew bundle
-cp .gitconfig ~/.gitconfig
+```
+
+Symlink `.gitconfig`:
+
+```
+ln -s .gitconfig ~/.gitconfig
 ```
 
 Install [oh my zsh](https://github.com/robbyrussell/oh-my-zsh)
