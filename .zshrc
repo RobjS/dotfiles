@@ -91,7 +91,6 @@ source $(brew --prefix php-version)/php-version.sh && php-version 7.4
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias "whippet"="~/projects/whippet/bin/whippet"
 alias "go"="/usr/local/opt/go/libexec/bin/go"
 alias "laravel"="~/.composer/vendor/bin/laravel"
 alias "pa"="php artisan"
