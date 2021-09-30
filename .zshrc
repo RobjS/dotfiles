@@ -58,6 +58,7 @@ export PATH="$PATH:/usr/local/opt/go/libexec/bin"
 export PATH="$PATH:~/.composer/vendor/bin"
 export GOPATH="$HOME/gowork"
 export PATH="$PATH:/Users/rob/Projects/dalmatian-tools/bin"
+export PATH="$PATH:/Users/rob/Projects/govpress-tools/bin"
 export PATH=$PATH:$GOPATH/bin
 source $ZSH/oh-my-zsh.sh
 source $(brew --prefix php-version)/php-version.sh && php-version 7.4
