@@ -25,6 +25,12 @@ ln -s ~/dotfiles/.zshrc ~/.zshrc
 
 Install [vscode](https://code.visualstudio.com/)
 
+Install vscode extensions:
+
+```
+./vscode/extensions.sh
+```
+
 Copy vscode's settings:
 
 ```bash
