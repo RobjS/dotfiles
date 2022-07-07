@@ -28,7 +28,7 @@ Install [vscode](https://code.visualstudio.com/)
 Copy vscode's settings:
 
 ```bash
-cp ~/dotfiles/settings.json ~/Library/ApplicationSupport/code/user/settings.json
+cp ~/dotfiles/vscode/settings.json ~/Library/ApplicationSupport/code/user/settings.json
 ```
 
 Install [docker desktop](https://www.docker.com/products/docker-desktop)
