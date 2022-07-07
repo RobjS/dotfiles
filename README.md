@@ -39,6 +39,4 @@ cp ~/dotfiles/vscode/settings.json ~/Library/ApplicationSupport/code/user/settin
 
 Install [docker desktop](https://www.docker.com/products/docker-desktop)
 
-Install [whippet](https://github.com/dxw/whippet)
-
 [PHP-Version](https://github.com/wilmoore/php-version) is used for controlling PHP versions.
