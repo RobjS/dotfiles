@@ -109,3 +109,5 @@ bashcompinit
 export PATH="/usr/local/sbin:$PATH"
 eval "$(rbenv init -)"
 
+# Autocompletions for govpress-tools
+source $HOME/.govpress_zsh_completions.sh
