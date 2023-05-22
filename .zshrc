@@ -101,6 +101,7 @@ alias "dud"="docker compose up -d"
 alias "pete"="docker compose down"
 alias "acfhash"="date | md5sum | head -c 13; echo"
 alias "whippet-dev"="~/projects/whippet/bin/whippet"
+alias "grc"="git commit --reuse-message=ORIG_HEAD"
 
 autoload bashcompinit
 bashcompinit
