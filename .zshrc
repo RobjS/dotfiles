@@ -107,6 +107,7 @@ autoload bashcompinit
 bashcompinit
 export PATH="/usr/local/sbin:$PATH"
 eval "$(rbenv init -)"
+eval "$(pyenv init --path)"
 
 # Autocompletions for govpress-tools
 source $HOME/.govpress_zsh_completions.sh
