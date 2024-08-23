@@ -105,7 +105,7 @@ alias "grc"="git commit --reuse-message=ORIG_HEAD"
 
 autoload bashcompinit
 bashcompinit
-export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/sbin:/users/rob/.composer/vendor/bin:$PATH"
 eval "$(rbenv init -)"
 eval "$(pyenv init --path)"
 
