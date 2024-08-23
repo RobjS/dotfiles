@@ -1,0 +1,23 @@
+{
+    "require": {
+        "vimeo/psalm": "^5.1"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*",
+        "phpcompatibility/php-compatibility": "dev-develop",
+        "phpstan/phpstan": "^1.11",
+        "phpstan/extension-installer": "^1.4",
+        "phpstan/phpstan-deprecation-rules": "^1.2"
+    },
+    "prefer-stable" : true,
+    "scripts": {
+        "post-install-cmd": "\"vendor/bin/phpcs\" --config-set installed_paths ~/.composer/vendor/phpcompatibility/php-compatibility",
+        "post-update-cmd" : "\"vendor/bin/phpcs\" --config-set installed_paths ~/.composer/vendor/phpcompatibility/php-compatibility"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "phpstan/extension-installer": true
+        }
+    }
+}

@@ -23,6 +23,14 @@ Symlink `.zshrc`:
 ln -s ~/dotfiles/.zshrc ~/.zshrc
 ```
 
+Symlink the global `composer.json`
+
+```bash
+ln -s ~/dotfiles/composer.json ~/.composer/composer.json`
+```
+
+(Will also need to run `composer global update`).
+
 Install [vscode](https://code.visualstudio.com/)
 
 Install vscode extensions:
