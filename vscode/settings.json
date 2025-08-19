@@ -87,4 +87,5 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "window.zoomLevel": 0,
     "editor.detectIndentation": true,
+    "chat.commandCenter.enabled": false
 }
