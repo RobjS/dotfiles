@@ -86,5 +86,5 @@
     ],
     "diffEditor.ignoreTrimWhitespace": false,
     "window.zoomLevel": 0,
-    "editor.detectIndentation": false
+    "editor.detectIndentation": true,
 }
