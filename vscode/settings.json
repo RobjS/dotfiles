@@ -6,10 +6,9 @@
         "comments": false,
         "strings": true
       },
-    "editor.wordBasedSuggestions": true,
+    "editor.wordBasedSuggestions": "matchingDocuments",
     "php.suggest.basic": false,
     "workbench.colorTheme": "Solarized Dark",
-    "files.insertFinalNewline": true,
     "intelephense.stubs": [
       "apache",
       "bcmath",
@@ -84,8 +83,75 @@
       "zlib",
       "wordpress"
     ],
-    "diffEditor.ignoreTrimWhitespace": false,
-    "window.zoomLevel": 0,
-    "editor.detectIndentation": true,
-    "chat.commandCenter.enabled": false
+	"diffEditor.ignoreTrimWhitespace": false,
+    "intelephense.environment.includePaths": [
+      "**/vendor/",
+      "**/vendor/**",
+      "./vendor/"
+    ],
+	"intelephense.environment.phpVersion": "8.2.28",
+    "editor.renderWhitespace": "all",
+	"editor.insertSpaces": false,
+	"markdownlint.config": {
+		"MD013": true
+  },
+  "window.newWindowDimensions": "fullscreen",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "search.useParentIgnoreFiles": true,
+  "[php]": {},
+  "github.copilot.chat.agent.runTasks": false,
+  "github.copilot.chat.codeGeneration.useInstructionFiles": false,
+  "github.copilot.chat.followUps": "never",
+  "github.copilot.chat.reviewSelection.enabled": false,
+  "github.copilot.chat.copilotDebugCommand.enabled": false,
+  "github.copilot.chat.startDebugging.enabled": false,
+  "github.copilot.chat.edits.newNotebook.enabled": false,
+  "github.copilot.chat.edits.suggestRelatedFilesForTests": false,
+  "github.copilot.chat.edits.suggestRelatedFilesFromGitHistory": false,
+  "github.copilot.chat.newWorkspaceCreation.enabled": false,
+  "github.copilot.chat.search.semanticTextResults": false,
+  "github.copilot.chat.setupTests.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "chat.extensionTools.enabled": false,
+  "chat.setupFromDialog": false,
+  "telemetry.feedback.enabled": false,
+  "chat.agent.enabled": false,
+  "chat.focusWindowOnConfirmation": false,
+  "github.copilot.chat.useProjectTemplates": false,
+  "github.copilot.editor.enableCodeActions": false,
+  "github.copilot.renameSuggestions.triggerAutomatically": false,
+  "intelephense.references.exclude": [],
+  "intelephense.codeLens.references.enable": true,
+  "intelephense.completion.insertUseDeclaration": false,
+  "intelephense.completion.suggestObjectOperatorStaticMethods": false,
+  "intelephense.environment.documentRoot": ".",
+  "rubyLsp.enabledFeatures": {
+    "codeActions": true,
+    "diagnostics": true,
+    "documentHighlights": true,
+    "documentLink": true,
+    "documentSymbols": true,
+    "foldingRanges": true,
+    "formatting": true,
+    "hover": true,
+    "inlayHint": true,
+    "onTypeFormatting": true,
+    "selectionRanges": true,
+    "semanticHighlighting": true,
+    "completion": true,
+    "codeLens": true,
+    "definition": true,
+    "workspaceSymbol": true,
+    "signatureHelp": true,
+    "typeHierarchy": true
+  }, 
+  "rubyLsp.addonSettings": {
+
+  }
 }
