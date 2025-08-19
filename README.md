@@ -2,6 +2,8 @@
 
 Install [homebrew](https://brew.sh/)
 
+Run the following in `~`:
+
 ```bash
 brew install git
 git clone git@github.com:RobjS/dotfiles.git
@@ -39,10 +41,10 @@ Install vscode extensions:
 ./vscode/extensions.sh
 ```
 
-Copy vscode's settings:
+Symlink vscode's settings:
 
 ```bash
-cp ~/dotfiles/vscode/settings.json ~/Library/ApplicationSupport/code/user/settings.json
+ln -s ~/dotfiles/vscode/settings.json ~/Library/ApplicationSupport/code/user/settings.json
 ```
 
 Install [docker desktop](https://www.docker.com/products/docker-desktop)
