@@ -25,6 +25,12 @@ Symlink `.zshrc`:
 ln -s ~/dotfiles/.zshrc ~/.zshrc
 ```
 
+Symlink the `.vimrc`:
+
+```bash
+ln -s ~/dotfiles/.vimrc ~/.vimrc
+```
+
 Symlink the global `composer.json`
 
 ```bash
