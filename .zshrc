@@ -42,7 +42,7 @@ ZSH_THEME="robbyrussell"
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # HIST_STAMPS="mm/dd/yyyy"
 
-# Would you like to use another custom folder than $ZSH/custom?
+# Would you like to use another custom folder than $ZSH/cu stom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
@@ -53,7 +53,8 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
 export PATH="$PATH:/usr/local/opt/go/libexec/bin"
 export PATH="$PATH:~/.composer/vendor/bin"
 export GOPATH="$HOME/gowork"
@@ -111,3 +112,4 @@ eval "$(pyenv init --path)"
 
 # Autocompletions for govpress-tools
 source $HOME/.govpress_zsh_completions.sh
+export PATH="/opt/homebrew/opt/curl/bin:$PATH"
