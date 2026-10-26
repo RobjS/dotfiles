@@ -62,7 +62,7 @@ export PATH="$PATH:/Users/rob/Projects/dalmatian-tools/bin"
 export PATH="$PATH:/Users/rob/Projects/govpress-tools/bin"
 export PATH=$PATH:$GOPATH/bin
 source $ZSH/oh-my-zsh.sh
-source $(brew --prefix php-version)/php-version.sh && php-version 8.2
+source $(brew --prefix php-version)/php-version.sh && php-version 8.3
 
 # Imperative that this environment variable always reflects the output
 # of the tty command. This is so that passphrase entry works
