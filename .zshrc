@@ -113,3 +113,9 @@ eval "$(pyenv init --path)"
 # Autocompletions for govpress-tools
 source $HOME/.govpress_zsh_completions.sh
 export PATH="/opt/homebrew/opt/curl/bin:$PATH"
+
+
+# Added by Antigravity CLI installer
+export PATH="/Users/rob/.local/bin:$PATH"
+export PATH="/Users/rob/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
